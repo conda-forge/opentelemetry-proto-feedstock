@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-proto" %}
-{% set version = "1.11.1" %}
+{% set version = "1.12.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry-proto-{{ version }}.tar.gz
-  sha256: 5df0ec69510a9e2414c0410d91a698ded5a04d3dd37f7d2a3e119e3c42a30647
+  sha256: c7f3f2dab9060769ac3ca67b147a0433d7326d5622eed6ef8039afebd80591e3
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - protobuf >=3.13.0
+    - protobuf ~=3.13
     - python >=3.6
 
 test:
