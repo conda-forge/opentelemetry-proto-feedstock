@@ -1,11 +1,11 @@
-About opentelemetry-proto
-=========================
+About opentelemetry-proto-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-proto-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-telemetry/opentelemetry-python/tree/main/opentelemetry-proto
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-proto-feedstock/blob/main/LICENSE.txt)
 
 Summary: OpenTelemetry Python Proto
 
