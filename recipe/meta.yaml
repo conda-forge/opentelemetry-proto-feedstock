@@ -12,16 +12,16 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - hatchling
   run:
-    - python >=3.7
-    - protobuf <5.0,>=3.19
+    - python >=3.8
+    - protobuf >=3.19,<5.0
 
 test:
   imports:
