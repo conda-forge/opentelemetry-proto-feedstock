@@ -8,6 +8,8 @@ package:
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_proto-{{ version }}.tar.gz
   sha256: 16286214e405c211fc774187f3e4bbb1351290b8dfb88e8948af209ce85b719e
+  patches:
+    - patches/0001-relax-protobuf.patch
 
 build:
   noarch: python
