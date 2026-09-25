@@ -1,13 +1,13 @@
 {% set name = "opentelemetry-proto" %}
-{% set version = "1.44.0" %}
+{% set version = "1.45.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_proto-{{ version }}.tar.gz
-  sha256: c547a79c2f8c0c515d31509154682e5921c7cfd5ca67b70e1f9266e2c3e103f3
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_proto-{{ version }}.tar.gz
+  sha256: 96ee414f24bc3f61ea8e17dc56b4348d4049d73db3eb17c6b3edf75b5b403300
 
 build:
   noarch: python
